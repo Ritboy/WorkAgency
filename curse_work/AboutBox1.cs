@@ -15,11 +15,13 @@ namespace curse_work
         {
             InitializeComponent();
             this.Text = String.Format("About {0}", AssemblyTitle);
-            this.labelProductName.Text = AssemblyProduct;
-            this.labelVersion.Text = String.Format("Version {0}", AssemblyVersion);
-            this.labelCopyright.Text = AssemblyCopyright;
-            this.labelCompanyName.Text = AssemblyCompany;
-            this.textBoxDescription.Text = AssemblyDescription;
+            this.labelProductName.Text = "Название: ИС Кадровое агентство";
+            this.labelVersion.Text = "Версия: 1.0 2018";
+            this.labelCopyright.Text = "Права и лицензия: Cвободный доступ";
+            this.labelCompanyName.Text = "Разработчик: Студент СамГТУ Шалдаев Р.И.";
+            this.textBoxDescription.Text = @"Данная программа предназачена для автоматизации работы сотрудников
+кадрового агентства. Программа обладает приветливым интерфейсом, и что не менее важно предоставляет широкий функционал для работы в области трудоустройства.
+";
         }
 
         #region Assembly Attribute Accessors

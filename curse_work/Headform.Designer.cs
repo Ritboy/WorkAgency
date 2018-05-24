@@ -115,6 +115,9 @@
             this.резюмеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.выходToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.rezume_openFileDialog = new System.Windows.Forms.OpenFileDialog();
+            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.heplToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exitToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.tab.SuspendLayout();
             this.rezume_contextMenuStrip.SuspendLayout();
             this.tab_vakans.SuspendLayout();
@@ -1058,7 +1061,10 @@
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.файлToolStripMenuItem});
+            this.файлToolStripMenuItem,
+            this.aboutToolStripMenuItem,
+            this.heplToolStripMenuItem,
+            this.exitToolStripMenuItem1});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(798, 24);
@@ -1080,7 +1086,7 @@
             this.вакансииToolStripMenuItem,
             this.резюмеToolStripMenuItem});
             this.открытьToolStripMenuItem.Name = "открытьToolStripMenuItem";
-            this.открытьToolStripMenuItem.Size = new System.Drawing.Size(121, 22);
+            this.открытьToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.открытьToolStripMenuItem.Text = "Открыть";
             // 
             // вакансииToolStripMenuItem
@@ -1100,7 +1106,7 @@
             // выходToolStripMenuItem
             // 
             this.выходToolStripMenuItem.Name = "выходToolStripMenuItem";
-            this.выходToolStripMenuItem.Size = new System.Drawing.Size(121, 22);
+            this.выходToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.выходToolStripMenuItem.Text = "Выход";
             this.выходToolStripMenuItem.Click += new System.EventHandler(this.выходToolStripMenuItem_Click);
             // 
@@ -1110,6 +1116,27 @@
             this.rezume_openFileDialog.FileName = "Rezume.bin";
             this.rezume_openFileDialog.Filter = "bin файл (*.bin)|*.bin";
             this.rezume_openFileDialog.Title = "Открыть файл резюме";
+            // 
+            // aboutToolStripMenuItem
+            // 
+            this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(94, 20);
+            this.aboutToolStripMenuItem.Text = "О программе";
+            this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
+            // 
+            // heplToolStripMenuItem
+            // 
+            this.heplToolStripMenuItem.Name = "heplToolStripMenuItem";
+            this.heplToolStripMenuItem.Size = new System.Drawing.Size(68, 20);
+            this.heplToolStripMenuItem.Text = "Помощь";
+            this.heplToolStripMenuItem.Click += new System.EventHandler(this.heplToolStripMenuItem_Click);
+            // 
+            // exitToolStripMenuItem1
+            // 
+            this.exitToolStripMenuItem1.Name = "exitToolStripMenuItem1";
+            this.exitToolStripMenuItem1.Size = new System.Drawing.Size(53, 20);
+            this.exitToolStripMenuItem1.Text = "Выход";
+            this.exitToolStripMenuItem1.Click += new System.EventHandler(this.exitToolStripMenuItem1_Click);
             // 
             // Headform
             // 
@@ -1237,6 +1264,9 @@
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem3;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem4;
         private System.Windows.Forms.ToolStripMenuItem выходToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem heplToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem1;
     }
 }
 

@@ -481,5 +481,24 @@ namespace curse_work
         {
             this.Close();
         }
+
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new AboutBox1().ShowDialog();
+        }
+
+        private void exitToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Подтвердите выход из программы", "Система учета поставок КСИ - Подтверждение выхода", MessageBoxButtons.YesNo, MessageBoxIcon.Warning)
+                == DialogResult.Yes)
+            {
+                Close();
+            }
+        }
+
+        private void heplToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new Help().ShowDialog();
+        }
     }
 }
