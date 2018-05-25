@@ -14,7 +14,7 @@ namespace curse_work
         public AboutBox1()
         {
             InitializeComponent();
-            this.Text = String.Format("About {0}", AssemblyTitle);
+            this.Text = "О программе";
             this.labelProductName.Text = "Название: ИС Кадровое агентство";
             this.labelVersion.Text = "Версия: 1.0 2018";
             this.labelCopyright.Text = "Права и лицензия: Cвободный доступ";
